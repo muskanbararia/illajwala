@@ -1,0 +1,283 @@
+header.navbar {position: fixed; background: rgba(0,0,0,0.50);}
+		.landing-page-header {margin-top: 20px;}
+		.landing-page-header .d-subtext {font-size: 25px; line-height: 1.2; margin-bottom: 10px; color: white;}
+		.landing-page-header .d-text {font-size: 35px;font-weight: bold;line-height: 1.2;margin-top:0;margin-bottom: 20px;color: white;}
+		.d-btn-transparent {background-color: transparent; border-color: white; color: white;overflow: hidden;}
+		.d-btn-transparent #newTag {
+			position: absolute;
+			top: -33px;
+			left: -38px;
+			color: white;
+			background-color: #259b24;
+			padding: 48px 24px 0;
+			-webkit-transform: rotate(-45deg);
+			-moz-transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
+			-o-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+			font-size: 10px;
+			font-weight: 700;
+			letter-spacing: 0.1rem;
+		}
+		.a-consultPrivately .d-iconedBulletPoints li::after {
+			content: '';background-image: url("../../../../img/ic_arrow.png");height: 33px;width: 30px;display: inline-block;position: absolute;
+			top: 15px;right: 0px;}
+		.d-iconedBulletPoints img {height: 55px;}
+		.d-iconedBulletPoints li:last-child::after {background: none;}
+		
+		#dotComLandingPage .nav-tabs 
+			{border-bottom-color: #3758CC; font-weight:bold;}
+		
+		#dotComLandingPage .nav-tabs>li>a 
+			{border-color: white; border-bottom-color: #3758CC;}
+		
+		#dotComLandingPage .nav-tabs>li>a:hover 
+			{background-color: transparent; color: white; border-bottom: transparent;}
+		
+		#dotComLandingPage .nav-tabs>li.active>a, 
+		#dotComLandingPage .nav-tabs>li.active>a:hover, 
+		#dotComLandingPage .nav-tabs>li.active>a:focus 
+			{background-color: #3758CC; color: white; border: 1px solid #3758CC;}
+		
+		.a-appointment>div>div {padding-right: 0px; padding-left: 0px;}
+		.d-formUnitTitle, .d-helpText {color: white; }
+		
+		#dotComLandingPage .a-slideContent h1 {text-transform: none;}
+		#dotComLandingPage .a-slideContent .d-text {line-height: 1.2;}
+		#dotComLandingPage .a-slide.a-slide-striking {min-height: 600px;}
+		#dotComLandingPage.a-slideContainer .a-slide {text-align: left;}
+		.d-point {padding-top: 10px; color: white;}
+		#dotComLandingPage .a-searchBySpeciality {font-size:14px;}
+		#topCategories {border-bottom: 0px !important;}
+		#topCategories > div > h1 {padding: 20px; font-size:30px;}
+		.outer-bg {background-position: top right;}
+		#dotComLandingPage.container-fluid {overflow: hidden;}
+		#dotComLandingPage > h1 {padding-top: 20px;}
+		.tt-label {padding-left:8px;color: rgb(200,37,6);cursor: pointer;}
+		#dotComLandingPage .a-infoInImages {display: inline-block;}
+		#dotComLandingPage .outer-bg {height: 600px; padding-top: 120px;}
+		#dotComLandingPage .a-infoInImages .d-iconedBulletPoints {padding-top: 20px; width: 500px; margin: auto;}
+		.navTabIcons {padding-right:5px; max-width:26px; margin-bottom:3px;}
+
+		.consultPrivatelyBg {background-image: url('../images/keyboard-low-res.jpg');}
+		.labTestBg {background-image: url('../images/keyboard-low-res.jpg');}
+		.tourPackBg {background-image: url('../images/keyboard-low-res.jpg');}
+		.askQuestionBg {background-image: url('../images/lady-doc-low-res.jpg');}
+		.diagReportBg {background-image: url('../images/lady-doc-low-res.jpg');}
+		.bookAppointmentBg {background-image: url('../images/chairs-low-res.jpg');}
+		.BookMedBg {background-image: url('../images/keyboard-low-res.jpg');}
+		.consultPrivatelyBg_dld {background-image: url('../images/backgroundImage-lybrateKeyboard.jpg');}
+		.askQuestionBg_dld {background-image: url('../images/backgroundImage-right-doctor.jpg');}
+		.diagReportBg_dld {background-image: url('../images/backgroundImage-right-doctor.jpg');}
+		.bookAppointmentBg_dld {background-image: url('../images/background-chairs.jpg');}
+		.BookMedBg_dld {background-image: url('../images/background-chairs.jpg');}
+		.tourPackBg_dld {background-image: url('../images/backgroundImage-lybrateKeyboard.jpg');}
+		.labTestBg_dld {background-image: url('../images/backgroundImage-lybrateKeyboard.jpg');}
+		@media (max-width: 448px) {
+			#dotComLandingPage .d-subtext {font-size:14px !important;}
+			#dotComLandingPage .d-text {font-size:22px !important;}
+			#dotComLandingPage .d-btn-transparent {font-size:10px; padding:5px !important;}
+			/* #dotComLandingPage .container {width:100%;} */
+			#dotComLandingPage .a-bookAppointment .a-findDoc {border-bottom-color:transparent;} 
+			#dotComLandingPage .submitSearchAppointment {margin-top:5px;}
+			#dotComLandingPage .doctorBlock {margin-top:1px;}
+			#dotComLandingPage .doctorBlock > h1 {padding:10px;}
+			#dotComLandingPage .outer-bg {background-image:none; background-color:grey !important;}
+			/*#dotComLandingPage {margin-top:60px;}
+			.navbar {margin-top:60px;}*/
+			#dotComLandingPage .nav-tabs {width:108%; font-size:10px;}
+			#dotComLandingPage .d-point {font-size:12px;}
+			#dotComLandingPage .doctorBlock {margin-bottom:1px !important;}
+		}
+		@media (max-width: 768px) {
+			.askQuestionBg {background-position: 78% 0% !important;}
+			#dotComLandingPage .a-infoInImages {display: block;}
+			
+			#dotComLandingPage .a-askQuestion h1,
+			#dotComLandingPage .a-bookAppointment h1
+				{margin-top: 20px;}
+			 
+			#dotComLandingPage .a-askQuestion h1 .d-subtext,
+			#dotComLandingPage .a-bookAppointment h1 .d-subtext
+				{font-size: 22px;}
+				
+			#dotComLandingPage .a-askQuestion h1 .d-text,
+			#dotComLandingPage .a-bookAppointment h1 .d-text 
+				{font-size: 30px;}
+				
+			#dotComLandingPage .outer-bg 
+				{padding-top: 100px;}
+				
+			#dotComLandingPage .a-infoInImages .d-iconedBulletPoints {width: 100%;}
+			
+			#dotComLandingPage .nav-tabs {width:108%; font-size:10px;}
+			.doctorBlock {background-color:white;}
+			.consultPrivatelyBg {background-image: url('../images/keyboard-low-res.jpg');}
+		.askQuestionBg {background-image: url('../images/lady-doc-low-res.jpg');}
+		.bookAppointmentBg {background-image: url('../images/chairs-low-res.jpg');}
+		.BookMedBg {background-image: url('../images/keyboard-low-res.jpg');}
+		.consultPrivatelyBg_dld {background-image: url('../images/backgroundImage-lybrateKeyboard.jpg');}
+		.askQuestionBg_dld {background-image: url('../images/backgroundImage-right-doctor.jpg');}
+		.bookAppointmentBg_dld {background-image: url('../images/background-chairs.jpg');}
+		.BookMedBg_dld {background-image: url('../images/background-chairs.jpg');}
+			#dotComLandingPage .doctorBlock {margin-bottom:1px;}
+		}
+		
+		
+
+
+		.ly-color-white {
+		  color: white !important;
+		}
+
+		.ly-home-dropdown-menu.dropdown-menu {
+			background-color: rgba(0,0,0,0.5);
+		}
+
+		.ly-home-dropdown-menu.dropdown-menu > li > a:hover {
+			background-color: #A31B01;
+		}
+		
+		
+.detect-loc{
+	position:absolute;
+	right:6px;
+	top:10px;
+	cursor:pointer;
+	z-index:12;
+	opacity:0.4;
+}
+
+.detect-loc-wrapper{
+	position:relative;
+}
+
+
+/*------- Seo footer content ----*/
+
+.seo-home-footer-block{
+	font-size:12px;
+	background:#eee;
+	text-align:left;
+}
+
+.seo-home-footer-block h4{
+	font-size:14px;
+	margin:10px 0;
+	text-transform:uppercase;
+	color:#838383;
+}
+
+.seo-home-footer-block p{
+	color:#838383;
+}
+.expand-home-seo-footer-content{
+	background:transparent;
+	border:0px;
+	padding:0px;
+	color:#3758CC;
+}
+#whyLybrate {
+                padding: 40px 0px;
+                font-size: 15px
+            }
+            
+            #whyLybrate h2 {
+                margin-top: 0px;
+                margin-bottom: 20px;
+                font-size: 30px;
+            }
+            
+            #whyLybrate .d-title {
+                letter-spacing: 1px;
+                margin-bottom: 0px;
+                font-size: 18px;
+                font-weight: bold;
+                color: #000000;
+            }
+            
+            #whyLybrate .d-image img {
+                margin-bottom: 15px;
+                height: 80px;
+            }
+            
+            #whyLybrate .a-whyLybrate {
+                margin-bottom: 30px;
+            }
+            
+            #reasons_block {
+                background-color: #3758CC;
+                color: #fff;
+                font-size: 20px;
+                line-height: 30px;
+                padding: 10px;
+            }
+            
+            .myriadpro-light {
+                font-family: MyriadPro-Light, Georgia, "Times new roman", "Helvetica Neue";
+                font-style: normal;
+                font-variant: normal;
+                font-weight: 300;
+            }
+            
+            #reasons_block a,
+            .top_promo_block a {
+                color: #fff;
+                cursor: pointer;
+            }
+            
+            .h_center {
+                text-align: center;
+            }
+            
+            .modClose {
+                background: #fff !important;
+                opacity: 1;
+                position: absolute;
+                z-index: 9999;
+                color: #3758CC;
+                border: 1px solid #3758CC !important;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                top: -10px;
+                right: -10px;
+            }
+            
+            .modal-bodyVideo {
+                padding: 3px !important;
+            }
+            
+            .modClose:hover {
+                background: #3758CC !important;
+                color: #fff !important;
+                opacity: 1 !important;
+            }
+            
+            .modalVideo {
+                z-index: 1070 !important;
+            }
+            
+            #heartBreaker .modal-dialog {
+                margin-top: 100px;
+            }
+            
+            @media screen and (max-width: 767px) {
+                #heartBreaker .modal-dialog {
+                    margin-top: 50px;
+                }
+            }
+            
+            .ly-home-red-strip > span {
+                border: 1px solid;
+                border-radius: 5px;
+                padding: 4px 4px 0px 4px;
+                /* color: white; */
+                margin-right: 10px;
+                text-decoration: none;
+            }
+
+
+/* original color #c82506 */
